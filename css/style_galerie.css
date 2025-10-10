@@ -1,0 +1,49 @@
+.Introduction img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #004080;
+}
+
+.Introduction{
+    display: flex;
+    justify-content: center;
+    gap : 20px;
+    flex-wrap: wrap;
+}
+
+.Introduction p {
+    max-width: 400px;
+}
+
+.galerie {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+figure {
+    border: 1px solid #ccc;
+    width: 300px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+figure img, figure video, figure audio {
+    width: 100%;
+    height: auto;
+    min-height: 40px;
+}
+
+figcaption {
+    text-align: center;
+    background:grey;
+}
+
+section h2 {
+    text-align: center;
+}
+
