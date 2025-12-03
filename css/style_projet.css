@@ -1,17 +1,24 @@
-.projet {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.grid-projets {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
+    padding: 20px;
 }
 
-.item-projet {
-    width: 200px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 15px;
+.card {
+    background: #f5f7fa;
+    border: 1px solid #d0d4db;
+    border-radius: 10px;
+    padding: 25px;
 }
 
-.item-projet h3 {
-    margin-top: 0;
-    color: #004080;
+.card h3 {
+    color: #003b8e;
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #333;
+    line-height: 1.5;
 }
