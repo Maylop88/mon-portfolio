@@ -7,53 +7,60 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1 id="titre_principal">Mon Portfolio</h1>
-        <nav>
-            <a href="">Présentation</a>
-            <a href="page/parcours.html">Parcours</a>
-            <a href="page/projet.html">Projets</a>
-             <a href="page/galerie.html">Galerie</a>
-
-        </nav>
-            <hr>
+    <header class="header-bandeau">
+        <div class="container-nav">
+            <h1>Mon Portfolio</h1>
+            <nav>
+                <a href="#" class="active">Présentation</a>
+                <a href="page/parcours.html">Parcours</a>
+                <a href="page/projet.html" >Projets</a>
+                <a href="page/galerie.html">Galerie</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section id="presentation">
-            <h2>Présentation</h2>
-            <p>Bonjour, je m'appelle Evan COURAGEUX, j'ai 20 ans et je suis actuellement en formation de développeur web et web mobile à l'ULCO de Calais. Passionné par le développement web, j'aime créer des sites internet et des applications web qui sont à la fois fonctionnels et esthétiques.</p>
-        </section>
 
-        <section id="parcours">
-            <h2>Parcours</h2>
-            <ul>
-                <li> Formation Informatique à <strong>l'ULCO de Calais</strong></li>
-                <li>-</li>
-                <li>-</li>
-                <li>-</li>
-            </ul>
-        </section>
+    <main class="presentation-content">
+        <div class="container-main">
+            <h2>👋 Bienvenue !</h2>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Vous pouvez me contacter via les réseaux sociaux suivants :</p>
-            <ul>
-                <li><a href="" target="_blank">Outlook</a></li>
-                <li><a href="" target=""></a></li>
-            </ul>
-        </section>
-        <section id="Compétences">
-            <h2>Parcours</h2>
-            <ul>
-                <li><strong>HTML</strong></li>
-                <li><strong>CSS</strong></li>
-                <li><strong>JavaScript</strong></li>
-                <li><strong>Autonome</strong></li>
-            </ul>
-        </section>
+            <section class="profile-section">
+                
+                <div class="profile-photo">
+                    <img src="img/photo portfolio.jpg" alt="Photo de profil d'Evan Courageux">
+                </div>
+                
+                <div class="profile-text">
+                    
+                    <h3>Licence d'Informatique | ULCO Calais</h3>
+                    <h4> Présentation Personnelle.</h4>
+                    <p>
+                        Bonjour, je m'appelle Evan COURAGEUX j'ai 20 ans et je suis actuellement en Licence 1 d'informatique à L'ULCO de Calais.
+                    </p>
+                    <hr>
+                    <h4>Projet Professionnel.</h4>
+                    <p>
+                    Plus tard, j'aimerais commencer une formation dans le développement web ou bien dans la cyber-sécurité, mais je ne me suis pas encore fixé sur mon projet professionnel puisque ces deux cas m'intéresse fortement.
+                    </p>
+                    <hr>
+                    <h4>Mes Passions.</h4>
+                    <p>
+                    Je suis passionné par tout ce qui est activité en pleine air, commme par exemple la chasse qui est mon passe temps principal dans la vie, en effet, la plupart de mon temps, quand je ne suis pas à l'école, je le passe dans ma zone de chasse, cela me permet de me déconnecter des écrans le temps d'une journée.
+                    </p>
+                        <hr>
+                    
+                    <div class="cta-buttons">
+                        <a href="page/projet.html" class="button primary-btn"><i class="fas fa-code"></i> Voir mes Projets</a>
+                        <a href="" class="button secondary-btn"><i class="fas fa-envelope"></i> Me Contacter</a>
+                    </div>
+                </div>
+
+            </section>
+        </div>
     </main>
+
     <footer>
-        <hr>
-        <p>&copy; 2025 - Tout droit réservés à ULCO</p>
+        <p>© 2025 - Tout droit réservé à ULCO</p>
+    </footer>
+
 </body>
 </html>
